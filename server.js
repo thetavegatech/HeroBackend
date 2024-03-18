@@ -20,11 +20,11 @@ app.use(express.json());
 
 // Routes
 app.use('/api', inputAddressRoutes);
-app.use('/api',AI1CH1Route);
-app.use('/api',AI1CH2Route);
-app.use('/api',AI1CH3Route);
-app.use('/api',AI1CH4Route);
-app.use('/api',AI1CH5Route);
+app.use('/ch1',AI1CH1Route);
+app.use('/ch2',AI1CH2Route);
+app.use('/ch3',AI1CH3Route);
+app.use('/ch4',AI1CH4Route);
+app.use('/ch5',AI1CH5Route);
 
 
 
