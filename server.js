@@ -27,6 +27,14 @@ const AI3CH5Route = require('./Router/AI3CH5Route');
 const AI3CH6Route = require('./Router/AI3CH6Route');
 const AI3CH7Route = require('./Router/AI3CH7Route');
 const AI3CH8Route = require('./Router/AI3CH8Route');
+const AI4CH1Route = require('./Router/AI4CH1Route');
+const AI4CH2Route = require('./Router/AI4CH2Route');
+const AI4CH3Route = require('./Router/AI4CH3Route');
+const AI4CH4Route = require('./Router/AI4CH4Route');
+const AI4CH5Route = require('./Router/AI4CH5Route');
+const AI4CH6Route = require('./Router/AI4CH6Route');
+const AI4CH7Route = require('./Router/AI4CH7Route');
+const AI4CH8Route = require('./Router/AI4CH8Route');
 
 
 
@@ -65,6 +73,18 @@ app.use('/ai3ch5',AI3CH5Route);
 app.use('/ai3ch6',AI3CH6Route);
 app.use('/ai3ch7',AI3CH7Route);
 app.use('/ai3ch8',AI3CH8Route);
+app.use('/ai4ch1',AI4CH1Route);
+app.use('/ai4ch2',AI4CH2Route);
+app.use('/ai4ch3',AI4CH3Route);
+app.use('/ai4ch4',AI4CH4Route);
+app.use('/ai4ch5',AI4CH5Route);
+app.use('/ai4ch6',AI4CH6Route);
+app.use('/ai4ch7',AI4CH7Route);
+app.use('/ai4ch8',AI4CH8Route);
+
+
+
+
 
 
 
