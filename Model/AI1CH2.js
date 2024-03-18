@@ -9,8 +9,8 @@ const InputSchema = new mongoose.Schema({
     AI1CH2_I_LL_Set_Value: { type: Number },
     AI1CH2_Trimmer_Set_Time: { type: Number },
     AI1CH2_Alarm_Set_Time: { type: Number },
-    AI2CH2_Alarm_Reset_Bit: { type: Number },
-    AI2CH2_FB_Enable: { type: Number },
+    AI1CH2_Alarm_Reset_Bit: { type: Number },
+    AI1CH2_FB_Enable: { type: Number },
     
 });
 
